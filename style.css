@@ -33,3 +33,7 @@ section{
     transform: scale(1.2);
     transition: transform 2s ease-in-out;
 }
+.player-detail h3{
+        font-size: 20px;
+}
+
