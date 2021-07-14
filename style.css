@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 60px;
+    color: rgb(49, 0, 184);
+}
+section{
+    display: flex;
+    background-color: darkgoldenrod;
+    width: 1200px;;
+    height: 600px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 80%;
+    margin-top: 10%;
+    overflow: hidden;
+}
+.live{
+    background-color:orangered;
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.photo img{
+    width:100%
+}
+.half-width:hover .photo{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+}
